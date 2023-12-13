@@ -189,7 +189,17 @@ a,
 
 /* Footer */
 
+.footer {
+    background-color: #1f2937;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
 
+.footer-text {
+    text-align: center;
+    font-size: 18px;
+    color: #e5e7eb;
+}
 
 /* Common */
 
