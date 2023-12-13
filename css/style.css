@@ -54,7 +54,7 @@ a {
 
 .top-title {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
     color: #f9faf8;
 }
 
@@ -106,8 +106,10 @@ a,
 .mid-info {
     margin-top: 50px;
     display: flex;
-    justify-content: center;
-    gap: 125px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    
 }
 
 .mid-card {
@@ -130,4 +132,30 @@ a,
     margin-top: 10px;
     text-align: center;
     color: #1f2937;
+}
+
+/* Quote section */
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 100px 15vw 100px 15vw
+}
+
+.quote-card {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote-credit {
+    align-self: flex-end;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 24px;
 }
