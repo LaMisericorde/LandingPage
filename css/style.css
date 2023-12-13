@@ -14,7 +14,7 @@ body {
 
 .top-container {
     background-color: #1f2937;
-    padding: 3vh 15vw 10vw 15vw;
+    padding: 3vh 15vw 100px 15vw;
 }
 
 .header {
@@ -65,7 +65,7 @@ a {
     color: #f9faf8;
     font-weight: 500;
     border: none;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 10px 30px;
 }
 
@@ -86,4 +86,52 @@ a,
 .top-text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+/* Mid Section  */
+
+.mid-container {
+    padding: 50px 15vw 100px 15vw;
+    height: auto;
+
+}
+
+.mid-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.mid-info {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+}
+
+.mid-img {
+    height: 200px;
+    width: 200px;
+    flex: 0 0 auto;
+
+}
+
+.mid-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.mid-img {
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+    display: block;
+}
+
+.mid-text {
+    margin-top: 10px;
+    text-align: center;
+    color: #1f2937;
 }
